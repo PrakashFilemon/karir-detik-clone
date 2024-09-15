@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrontEnd Designer ERP</title>
+
+    <!--Link Boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Link Css -->
+    <link rel="stylesheet" type="text/css" href="index.css" />
+
+    <!-- Font Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <img
+          src="image/LogoDetik1.png"
+          class="navbar-brand img-logo"
+          href="#"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Jobs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><img src="image/LogoDetik.png" class="img-detik-2"
+              /></a>
+            </li>
+          </ul>
+          <span class="navbar-text"> Masuk </span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="jumbotron jumbotron-fluid">
+        <video autoplay loop muted id="bg-video">
+          <source
+            src="video/video-wp.b6f3d7b28023e6518346.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div class="back-video">
+          <div class=""></div>
+        </div>
+        <div class="content">
+          <h1 class="back">Work With Bestie</h1>
+          <h1 class="front">Work With Bestie</h1>
+          <p class="caption">
+            Ini saatnya kamu kerja di samping sahabatmu sendiri dengan
+            lingkungan positif dan <br />
+            untuk karirmu ke depan di detikcom!
+          </p>
+          <div class="button-see">
+            <a href="#">
+              <button class="btn-general btn-orange">See Jobs</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about">
+      <div class="container-sm">
+        <div class="row" style="text-align: center">
+          <div class="about-header" style="padding-bottom: 30px">
+            <h1>You CAN Sit With Us</h1>
+          </div>
+          <div class="coloumn">
+            <div
+              class="about-text"
+              style="
+                text-align: start;
+                box-sizing: border-box;
+                margin-right: 20px;
+                margin-left: 20px;
+              "
+            >
+              <h4>Hi, detikers!</h4>
+              <h6>
+                detikcom membuka kesempatan bagi kamu yang ingin tumbuh dan
+                berkembang bersama. Akan selalu ada cerita menyenangkan saat
+                berkarya dengan teammates seru di detikcom, selayaknya budaya
+                yang kami pegang, Working With Bestie. Di sini, detikers akan
+                menemukan banyak bestie baru yang siap menemani dan membantu
+                menghadapi segala tantangan.
+              </h6>
+              <h6>
+                Kami mencari seseorang yang juga bersemangat untuk menerapkan
+                values detikcom, B.E.S.T.I.E, yakni: Berintegritas,
+                Extraordinary, Sinergis, Tanggap, Inovatif, dan Energik. Hal ini
+                merupakan kunci yang akan mewujudkan detikcom sebagai “Digital
+                Life Gateway”.
+              </h6>
+              <h6>
+                Siap merasakan experience baru dalam meniti karir? Ini saatnya
+                kamu bekerja di samping sahabatmu sendiri!
+              </h6>
+              <div class="logo-detik" style="text-align: right">
+                <a href="#">
+                  <img src="image/LogoDetik.png" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide Banner -->
+    <div class="slide-banner" style="margin-top: 50px">
+      <div class="container">
+        <h1 class="tittle-banner">We Carry These Values By Heart</h1>
+      </div>
+      <div id="carousel-banner" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel-banner"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-banner"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-banner"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-banner"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-banner"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-banner"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel-banner"
+            data-bs-slide-to="6"
+            aria-label="Slide 7"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/Slide 1.jpeg" class="d-block w-100" alt="slide-1" />
+          </div>
+          <div class="carousel-item">
+            <img src="image/Slide 2.jpeg" class="d-block w-100" alt="slide-2" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="image/Extraordinary.jpeg"
+              class="d-block w-100"
+              alt="slide-3"
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="image/Slide 4.jpeg" class="d-block w-100" alt="slide-4" />
+          </div>
+          <div class="carousel-item">
+            <img src="image/Slide 5.jpeg" class="d-block w-100" alt="slide-5" />
+          </div>
+          <div class="carousel-item">
+            <img src="image/Slide 7.jpeg" class="d-block w-100" alt="slide-7" />
+          </div>
+          <div class="carousel-item">
+            <img src="image/Slide 8.jpeg" class="d-block w-100" alt="slide-8" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel-banner"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel-banner"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--See Jobs Section-->
+    <div class="see-job">
+      <div class="container">
+        <h1 class="search-title">Are You The One That We’re Looking For?</h1>
+        <form
+          class="form-search"
+          style="display: flex; justify-content: center"
+        >
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Input Search Keyword...."
+          />
+
+          <select class="form-control">
+            <option value="selected" disabled selected hidden>
+              Select Department
+            </option>
+            <option value="Business">BUSINESS</option>
+            <option value="Content">CONTENT</option>
+          </select>
+          <select class="form-control">
+            <option value="" disabled selected hidden>Select Job Level</option>
+            <option value="Fulltime">FULLTIME</option>
+            <option value="Parttime">PARTTIME</option>
+          </select>
+          <button class="btn-search">Search</button>
+        </form>
+        <table class="job-table">
+          <tbody>
+            <tr class="job-row">
+              <th>Videographer</th>
+              <td>BUSINESS</td>
+              <td>Fulltime</td>
+            </tr>
+            <tr class="job-row">
+              <th>Social Media</th>
+              <td>BUSINESS</td>
+              <td>Fulltime</td>
+            </tr>
+            <tr class="job-row">
+              <th>Video Editor 20detik</th>
+              <td>CONTENT</td>
+              <td>Fulltime</td>
+            </tr>
+            <tr class="job-row">
+              <th>Reporter DetikNews</th>
+              <td>CONTENT</td>
+              <td>Fulltime</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <section class="footer">
+      <div class="footer-up">
+        <img src="image/LogoDetik.png" />
+        <div class="sosmed">
+          <!-- SVG Facebook -->
+          <svg
+            width="25px"
+            height="25px"
+            viewBox="0 0 48 48"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <circle cx="24" cy="24" r="20" fill="#1DA1F2"></circle>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M36 16.3086C35.1177 16.7006 34.1681 16.9646 33.1722 17.0838C34.1889 16.4742 34.9697 15.5095 35.3368 14.36C34.3865 14.9247 33.3314 15.3335 32.2107 15.5551C31.3123 14.5984 30.0316 14 28.6165 14C25.8975 14 23.6928 16.2047 23.6928 18.9237C23.6928 19.3092 23.7368 19.6852 23.8208 20.046C19.7283 19.8412 16.1005 17.8805 13.6719 14.9015C13.2479 15.6287 13.0055 16.4742 13.0055 17.3766C13.0055 19.0845 13.8735 20.5916 15.1958 21.4747C14.3878 21.4491 13.6295 21.2275 12.9647 20.8587V20.9203C12.9647 23.3066 14.663 25.296 16.9141 25.7496C16.5013 25.8616 16.0661 25.9224 15.6174 25.9224C15.2998 25.9224 14.991 25.8912 14.6902 25.8336C15.3166 27.7895 17.1357 29.2134 19.2899 29.2534C17.6052 30.5733 15.4822 31.3612 13.1751 31.3612C12.7767 31.3612 12.3848 31.338 12 31.2916C14.1791 32.6884 16.7669 33.5043 19.5475 33.5043C28.6037 33.5043 33.5562 26.0016 33.5562 19.4956C33.5562 19.282 33.5522 19.0693 33.5418 18.8589C34.5049 18.1629 35.34 17.2958 36 16.3086Z"
+                fill="white"
+              ></path>
+            </g>
+          </svg>
+          <!-- SVG Twitter -->
+          <svg
+            width="25px"
+            height="25px"
+            viewBox="0 0 24 24"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            fill="#000000"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <title>facebook_fill</title>
+              <g
+                id="页面-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="Brand"
+                  transform="translate(-240.000000, -48.000000)"
+                  fill-rule="nonzero"
+                >
+                  <g
+                    id="facebook_fill"
+                    transform="translate(240.000000, 48.000000)"
+                  >
+                    <path
+                      d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5934901,23.257841 L12.5819402,23.2595131 L12.5108777,23.2950439 L12.4918791,23.2987469 L12.4918791,23.2987469 L12.4767152,23.2950439 L12.4056548,23.2595131 C12.3958229,23.2563662 12.3870493,23.2590235 12.3821421,23.2649074 L12.3780323,23.275831 L12.360941,23.7031097 L12.3658947,23.7234994 L12.3769048,23.7357139 L12.4804777,23.8096931 L12.4953491,23.8136134 L12.4953491,23.8136134 L12.5071152,23.8096931 L12.6106902,23.7357139 L12.6232938,23.7196733 L12.6232938,23.7196733 L12.6266527,23.7031097 L12.609561,23.275831 C12.6075724,23.2657013 12.6010112,23.2592993 12.5934901,23.257841 L12.5934901,23.257841 Z M12.8583906,23.1452862 L12.8445485,23.1473072 L12.6598443,23.2396597 L12.6498822,23.2499052 L12.6498822,23.2499052 L12.6471943,23.2611114 L12.6650943,23.6906389 L12.6699349,23.7034178 L12.6699349,23.7034178 L12.678386,23.7104931 L12.8793402,23.8032389 C12.8914285,23.8068999 12.9022333,23.8029875 12.9078286,23.7952264 L12.9118235,23.7811639 L12.8776777,23.1665331 C12.8752882,23.1545897 12.8674102,23.1470016 12.8583906,23.1452862 L12.8583906,23.1452862 Z M12.1430473,23.1473072 C12.1332178,23.1423925 12.1221763,23.1452606 12.1156365,23.1525954 L12.1099173,23.1665331 L12.0757714,23.7811639 C12.0751323,23.7926639 12.0828099,23.8018602 12.0926481,23.8045676 L12.108256,23.8032389 L12.3092106,23.7104931 L12.3186497,23.7024347 L12.3186497,23.7024347 L12.3225043,23.6906389 L12.340401,23.2611114 L12.337245,23.2485176 L12.337245,23.2485176 L12.3277531,23.2396597 L12.1430473,23.1473072 Z"
+                      id="MingCute"
+                      fill-rule="nonzero"
+                    ></path>
+                    <path
+                      d="M13.5,21.8883 C18.3113,21.1645 22,17.013 22,12 C22,6.47715 17.5228,2 12,2 C6.47715,2 2,6.47715 2,12 C2,17.013 5.68874,21.1645 10.5,21.8883 L10.5,15 L9,15 C8.17157,15 7.5,14.3284 7.5,13.5 C7.5,12.6716 8.17157,12 9,12 L10.5,12 L10.5,10 C10.5,8.067 12.067,6.5 14,6.5 L14.5,6.5 C15.3284,6.5 16,7.17157 16,8 C16,8.82843 15.3284,9.5 14.5,9.5 L14,9.5 C13.7239,9.5 13.5,9.72386 13.5,10 L13.5,12 L15,12 C15.8284,12 16.5,12.6716 16.5,13.5 C16.5,14.3284 15.8284,15 15,15 L13.5,15 L13.5,21.8883 Z"
+                      id="路径"
+                      fill="#09244B"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+          <!-- SVG Instagram -->
+          <svg
+            width="20px"
+            height="20px"
+            viewBox="0 0 2500 2500"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#000000"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <defs>
+                <radialGradient
+                  id="0"
+                  cx="332.14"
+                  cy="2511.81"
+                  r="3263.54"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset=".09" stop-color="#fa8f21"></stop>
+                  <stop offset=".78" stop-color="#d82d7e"></stop>
+                </radialGradient>
+                <radialGradient
+                  id="1"
+                  cx="1516.14"
+                  cy="2623.81"
+                  r="2572.12"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop
+                    offset=".64"
+                    stop-color="#8c3aaa"
+                    stop-opacity="0"
+                  ></stop>
+                  <stop offset="1" stop-color="#8c3aaa"></stop>
+                </radialGradient>
+              </defs>
+              <path
+                d="M833.4,1250c0-230.11,186.49-416.7,416.6-416.7s416.7,186.59,416.7,416.7-186.59,416.7-416.7,416.7S833.4,1480.11,833.4,1250m-225.26,0c0,354.5,287.36,641.86,641.86,641.86S1891.86,1604.5,1891.86,1250,1604.5,608.14,1250,608.14,608.14,895.5,608.14,1250M1767.27,582.69a150,150,0,1,0,150.06-149.94h-0.06a150.07,150.07,0,0,0-150,149.94M745,2267.47c-121.87-5.55-188.11-25.85-232.13-43-58.36-22.72-100-49.78-143.78-93.5s-70.88-85.32-93.5-143.68c-17.16-44-37.46-110.26-43-232.13-6.06-131.76-7.27-171.34-7.27-505.15s1.31-373.28,7.27-505.15c5.55-121.87,26-188,43-232.13,22.72-58.36,49.78-100,93.5-143.78s85.32-70.88,143.78-93.5c44-17.16,110.26-37.46,232.13-43,131.76-6.06,171.34-7.27,505-7.27s373.28,1.31,505.15,7.27c121.87,5.55,188,26,232.13,43,58.36,22.62,100,49.78,143.78,93.5s70.78,85.42,93.5,143.78c17.16,44,37.46,110.26,43,232.13,6.06,131.87,7.27,171.34,7.27,505.15s-1.21,373.28-7.27,505.15c-5.55,121.87-25.95,188.11-43,232.13-22.72,58.36-49.78,100-93.5,143.68s-85.42,70.78-143.78,93.5c-44,17.16-110.26,37.46-232.13,43-131.76,6.06-171.34,7.27-505.15,7.27s-373.28-1.21-505-7.27M734.65,7.57c-133.07,6.06-224,27.16-303.41,58.06C349,97.54,279.38,140.35,209.81,209.81S97.54,349,65.63,431.24c-30.9,79.46-52,170.34-58.06,303.41C1.41,867.93,0,910.54,0,1250s1.41,382.07,7.57,515.35c6.06,133.08,27.16,223.95,58.06,303.41,31.91,82.19,74.62,152,144.18,221.43S349,2402.37,431.24,2434.37c79.56,30.9,170.34,52,303.41,58.06C868,2498.49,910.54,2500,1250,2500s382.07-1.41,515.35-7.57c133.08-6.06,223.95-27.16,303.41-58.06,82.19-32,151.86-74.72,221.43-144.18s112.18-139.24,144.18-221.43c30.9-79.46,52.1-170.34,58.06-303.41,6.06-133.38,7.47-175.89,7.47-515.35s-1.41-382.07-7.47-515.35c-6.06-133.08-27.16-224-58.06-303.41-32-82.19-74.72-151.86-144.18-221.43S2150.95,97.54,2068.86,65.63c-79.56-30.9-170.44-52.1-303.41-58.06C1632.17,1.51,1589.56,0,1250.1,0S868,1.41,734.65,7.57"
+                fill="url(#0)"
+              ></path>
+              <path
+                d="M833.4,1250c0-230.11,186.49-416.7,416.6-416.7s416.7,186.59,416.7,416.7-186.59,416.7-416.7,416.7S833.4,1480.11,833.4,1250m-225.26,0c0,354.5,287.36,641.86,641.86,641.86S1891.86,1604.5,1891.86,1250,1604.5,608.14,1250,608.14,608.14,895.5,608.14,1250M1767.27,582.69a150,150,0,1,0,150.06-149.94h-0.06a150.07,150.07,0,0,0-150,149.94M745,2267.47c-121.87-5.55-188.11-25.85-232.13-43-58.36-22.72-100-49.78-143.78-93.5s-70.88-85.32-93.5-143.68c-17.16-44-37.46-110.26-43-232.13-6.06-131.76-7.27-171.34-7.27-505.15s1.31-373.28,7.27-505.15c5.55-121.87,26-188,43-232.13,22.72-58.36,49.78-100,93.5-143.78s85.32-70.88,143.78-93.5c44-17.16,110.26-37.46,232.13-43,131.76-6.06,171.34-7.27,505-7.27s373.28,1.31,505.15,7.27c121.87,5.55,188,26,232.13,43,58.36,22.62,100,49.78,143.78,93.5s70.78,85.42,93.5,143.78c17.16,44,37.46,110.26,43,232.13,6.06,131.87,7.27,171.34,7.27,505.15s-1.21,373.28-7.27,505.15c-5.55,121.87-25.95,188.11-43,232.13-22.72,58.36-49.78,100-93.5,143.68s-85.42,70.78-143.78,93.5c-44,17.16-110.26,37.46-232.13,43-131.76,6.06-171.34,7.27-505.15,7.27s-373.28-1.21-505-7.27M734.65,7.57c-133.07,6.06-224,27.16-303.41,58.06C349,97.54,279.38,140.35,209.81,209.81S97.54,349,65.63,431.24c-30.9,79.46-52,170.34-58.06,303.41C1.41,867.93,0,910.54,0,1250s1.41,382.07,7.57,515.35c6.06,133.08,27.16,223.95,58.06,303.41,31.91,82.19,74.62,152,144.18,221.43S349,2402.37,431.24,2434.37c79.56,30.9,170.34,52,303.41,58.06C868,2498.49,910.54,2500,1250,2500s382.07-1.41,515.35-7.57c133.08-6.06,223.95-27.16,303.41-58.06,82.19-32,151.86-74.72,221.43-144.18s112.18-139.24,144.18-221.43c30.9-79.46,52.1-170.34,58.06-303.41,6.06-133.38,7.47-175.89,7.47-515.35s-1.41-382.07-7.47-515.35c-6.06-133.08-27.16-224-58.06-303.41-32-82.19-74.72-151.86-144.18-221.43S2150.95,97.54,2068.86,65.63c-79.56-30.9-170.44-52.1-303.41-58.06C1632.17,1.51,1589.56,0,1250.1,0S868,1.41,734.65,7.57"
+                fill="url(#1)"
+              ></path>
+            </g>
+          </svg>
+          <!-- SVG Linkedin -->
+          <svg
+            width="25px"
+            height="25px"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                fill="#0A66C2"
+                d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"
+              ></path>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <hr />
+
+      <div class="footer-bottom">
+        <p>
+          Copyright ©2023 detiknetwork. All right reserved ·
+          <span
+            >Redakasi Pedoman Media Siber Karir Kotak Pos Media Partner Info
+            Iklan Privacy Policy Disclaimer</span
+          >
+        </p>
+      </div>
+    </section>
+
+    <!-- Navbar Javascript -->
+
+    <script>
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 0) {
+          navbar.style.backgroundColor = "white";
+          navbar.style.color = "black";
+        } else {
+          navbar.style.backgroundColor = "transparent";
+          navbar.style.color = "white";
+        }
+      });
+    </script>
+
+    <!-- About Us Javascript -->
+    <script>
+      window.addEventListener("scroll", function () {
+        const jumbotron = document.getElementById("hero");
+        const aboutUs = document.getElementById("about-us");
+
+        // Menghitung posisi elemen jumbotron
+        const jumbotronBottom = jumbotron.getBoundingClientRect().bottom;
+
+        // Jika jumbotron sudah sepenuhnya tidak terlihat
+        if (jumbotronBottom <= 0) {
+          // Scroll ke bagian About Us
+          aboutUs.scrollIntoView({ behavior: "smooth" });
+        }
+      });
+    </script>
+
+    <!-- Job Item Function -->
+    <script>
+      document.querySelectorAll(".job-table th").forEach((th) => {
+        th.addEventListener("mouseover", function () {
+          const colors = ["#ff6f31", "#2ecc71", "#3498db", "#e74c3c"];
+          const randomColor = colors[Math.floor(Math.random() * colors.length)];
+          th.style.backgroundColor = randomColor;
+        });
+
+        th.addEventListener("mouseout", function () {
+          th.style.backgroundColor = ""; // Kembali ke warna default
+        });
+      });
+    </script>
+
+    <!-- Boostrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

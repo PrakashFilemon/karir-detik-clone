@@ -1,0 +1,478 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat";
+}
+
+/* Styles for devices with a max-width of 375px (iPhone 11) */
+
+/* Navbar */
+@media (max-width: 375px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .img-logo {
+    width: 80px;
+  }
+
+  .img-detik-2 {
+    width: 50px;
+  }
+
+  .navbar .nav-link,
+  .navbar .navbar-brand,
+  .navbar .navbar-text {
+    font-size: 14px;
+  }
+}
+
+/* Jumbotron Video */
+@media (max-width: 375px) {
+  #bg-video {
+    height: 80vh; /* Menyesuaikan tinggi video */
+  }
+
+  .hero {
+    padding: 50px 10px; /* Menyesuaikan padding */
+    height: auto; /* Menyesuaikan tinggi hero section */
+  }
+
+  .hero .content h1 {
+    font-size: 40px; /* Menyesuaikan ukuran font untuk h1 */
+  }
+
+  .hero .content .front,
+  .hero .content .back {
+    font-size: 40px; /* Menyesuaikan ukuran font untuk front dan back */
+  }
+
+  .hero .content .caption {
+    font-size: 16px; /* Menyesuaikan ukuran font untuk caption */
+    margin-top: 10px;
+  }
+}
+
+/* General Responsive Adjustments */
+@media (max-width: 375px) {
+  /* Untuk layar sedikit lebih lebar, seperti iPhone 11 Pro */
+  .about {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .about .about-header h1 {
+    font-size: 24px; /* Ukuran font lebih kecil untuk layar lebih kecil */
+  }
+  .about .about-text {
+    margin-left: 20px; /* Sesuaikan margin untuk layar lebih kecil */
+    margin-right: 20px;
+  }
+
+  .about .about-text h4 {
+    font-size: 20px; /* Ukuran font lebih kecil */
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: start; /* Teks mulai dari kiri */
+  }
+
+  .about .about-text h6 {
+    font-size: 14px; /* Ukuran font lebih kecil */
+    line-height: 1.4; /* Jarak antar baris */
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: start; /* Teks mulai dari kiri */
+  }
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 20px;
+  background-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .navbar-text {
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.img-logo {
+  width: 100px;
+  height: auto;
+}
+
+.img-detik-2 {
+  width: 60px;
+  height: auto;
+}
+
+/* Jumbotron Video CSS */
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.7;
+}
+.hero {
+  position: absolute;
+  text-align: center;
+  padding: 100px 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.back-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.hero .content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero .content h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+  margin: 0;
+}
+
+.hero .content .front {
+  color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 80px;
+}
+
+.hero .content .back {
+  font-size: 80px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+  margin-left: 7px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.hero .content .caption {
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 20px;
+  z-index: 2;
+  line-height: 1.2;
+  font-family: montserrat-regular;
+}
+
+.btn-orange {
+  background-color: #fcb715;
+  color: #21409a;
+}
+
+.btn-general {
+  border: 1px solid #333;
+  box-shadow: 4px 4px #ccc;
+  font-family: montserrat-regular;
+  margin: 10px;
+  padding: 8px 12px;
+}
+
+.btn-general,
+.left-coloumn .sub-menu li a {
+  font-size: 14px; /* Ukuran font */
+  margin-top: 40px;
+}
+
+/* About Section */
+.about {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.about .about-header h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #21409a;
+  font-weight: bold; /* Atau bold jika diinginkan */
+  font-size: 30px; /* Ukuran default */
+  line-height: 1.2; /* Jarak antar baris */
+  margin: 0; /* Menghapus margin default */
+}
+
+.about .about-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px; /* Ukuran font disesuaikan agar tetap terbaca di iPhone 11 */
+  line-height: 1.5; /* Mengatur tinggi baris untuk kenyamanan baca */
+  margin-bottom: 15px; /* Memberikan jarak antara paragraf */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Ukuran default */
+.about .about-text h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #21409a;
+  font-size: 24px; /* Ukuran default */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  text-align: start; /* Teks terpusat untuk ukuran layar besar */
+}
+
+.about .about-text h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; /* Atau sesuai kebutuhan */
+  color: #333; /* Warna teks */
+  font-size: 16px; /* Ukuran default */
+  line-height: 1.5; /* Jarak antar baris */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  text-align: start;
+}
+
+/* Slide Banner */
+
+.slide-banner h1 {
+  text-align: center;
+  color: #21409a;
+  font-weight: 500;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 35px;
+  margin-top: 0;
+  padding-bottom: 30px;
+}
+
+#carouselExampleIndicators {
+  position: relative;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-control-prev {
+  left: 10px; /* Mengatur jarak dari sisi kiri */
+}
+
+.carousel-control-next {
+  right: 10px; /* Mengatur jarak dari sisi kanan */
+}
+
+/* See Job Section */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.search-title {
+  text-align: center;
+  font-size: 36px;
+  color: #21409a;
+  margin-bottom: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.form-search {
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-search .form-control {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid black;
+  background-color: #fff;
+}
+
+.form-control option {
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-control option:focus {
+  background-color: #21409a;
+  color: white;
+}
+
+.form-search::-ms-expand {
+  display: none;
+}
+
+.form-search .btn-search {
+  background-color: #fcb715;
+  border-radius: 1px;
+  border: 1px solid black;
+  box-shadow: 4px 4px #ccc;
+  margin-left: 4px;
+  color: #21409a;
+
+  /* -webkit-text-stroke: 1px #fff; */
+}
+
+@media (max-width: 375px) {
+  .form-search {
+    font-size: 14px;
+    justify-content: center;
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .form-search .btn-search {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-up {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  margin-bottom: 20px;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer-up .sosmed {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer hr {
+  border: none;
+  border-bottom: 2px solid #21409a;
+}
+
+.footer-bottom p {
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer-bottom span {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.job-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.job-table th,
+.job-table td {
+  padding: 25px;
+  text-align: left;
+}
+
+.job-table td {
+  font-weight: 600;
+}
+
+.job-table th {
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.1s ease, color 0.1s ease;
+}
+
+.job-table th:hover {
+  color: white;
+}
+
+.job-table th:hover::after {
+  content: "\2192"; /* Unicode karakter untuk panah kanan */
+  position: absolute;
+  right: 10px;
+  font-size: 16px;
+}
+
+.job-row {
+  transition: border-color 0.3s ease;
+}
+
+.job-row:hover {
+  border: 2px solid #000; /* Warna border saat hover */
+  box-shadow: 5px 5px #ccc;
+}
+
+.job-row:hover td {
+  border-left: 0; /* Hapus border kiri td agar border tr terlihat */
+  border-right: 0; /* Hapus border kanan td agar border tr terlihat */
+}
+
+.job-row:hover td:first-child {
+  border-left: 1px solid #000; /* Tambahkan border kiri di td pertama */
+  box-shadow: #000;
+}
+
+.job-row:hover td:last-child {
+  border-right: 1px solid #000; /* Tambahkan border kanan di td terakhir */
+}
